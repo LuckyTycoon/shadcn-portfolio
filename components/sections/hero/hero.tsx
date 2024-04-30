@@ -11,7 +11,7 @@ function Hero() {
             Designer & Developer
           </div>
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-            Hi, I&apos;m John Doe
+            Hi, I&apos;m Victor Hugo
           </h1>
           <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
             I design and build beautiful websites. Welcome to my portfolio.

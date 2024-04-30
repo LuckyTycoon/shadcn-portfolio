@@ -3,7 +3,6 @@ import {
   Hero,
   About,
   Skills,
-  Testimonials,
   Projects,
   Contact,
   Footer
@@ -23,7 +22,6 @@ export default function Home() {
               <Projects />
               <About />
               <Skills />
-              <Testimonials />
               <Contact />
               <Footer />
             </main>

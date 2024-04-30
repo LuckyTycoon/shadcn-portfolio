@@ -37,7 +37,7 @@ function Header() {
         <Link href="#" className="flex items-center justify-center">
           {/* TODO: Swap this out with a good icon */}
           <CodeIcon className="h-6 w-6" />
-          <span className="sr-only">John Doe</span>
+          <span className="sr-only">Victor Hugo</span>
         </Link>
         {/* Hamburger Button */}
         <button className="md:hidden" onClick={toggleMenu}>
@@ -69,26 +69,6 @@ function Header() {
             >
               Skills
             </Link>
-            <Link
-              className="flex items-center text-sm font-medium underline-offset-4 hover:underline"
-              href="#testimonials"
-            >
-              Testimonials
-            </Link>
-            <a
-              className="flex items-center text-sm font-medium underline-offset-4 hover:underline"
-              target="_blank"
-              href="https://blog.example.com"
-            >
-              Blog <ExternalLinkIcon className="ml-1 h-4 w-4" />
-            </a>
-            <a
-              className="flex items-center text-sm font-medium underline-offset-4 hover:underline"
-              target="_blank"
-              href="https://newsletter.example.com"
-            >
-              Newsletter <ExternalLinkIcon className="ml-1 h-4 w-4" />
-            </a>
             <Link
               className="flex items-center text-sm font-medium underline-offset-4 hover:underline"
               href="#contact"

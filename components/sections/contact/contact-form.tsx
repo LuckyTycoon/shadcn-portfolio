@@ -40,7 +40,7 @@ export default function ContactForm() {
         >
           Name
         </Label>
-        <Input id="name" name="name" placeholder="John Doe" required />
+        <Input id="name" name="name" placeholder="Victor Hugo" required />
         <p className="text-sm font-medium text-red-500 dark:text-red-900">
           {state?.errors?.name}
         </p>
@@ -80,7 +80,7 @@ export default function ContactForm() {
           id="message"
           name="message"
           placeholder={
-            "Hello!\n\nThis is John Doe, from Example. Just wanted to say hi!"
+            "Hello!\n\nThis is Victor Hugo, from Example. Just wanted to say hi!"
           }
           required
         />
