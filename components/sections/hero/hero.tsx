@@ -17,14 +17,14 @@ function Hero() {
             I design and build beautiful websites. Welcome to my portfolio.
           </p>
         </div>
-        <Image
+        {/* <Image
           alt="Image"
           className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
           height="450"
           sizes="100vw"
           src={"/images/hero.jpg"}
           width="800"
-        />
+        /> */}
       </div>
     </MotionWrap>
   );

@@ -22,14 +22,15 @@ function About() {
             </p>
           </div>
           <div className="grid gap-4 sm:gap-6">
-            <Image
+            Image
+            {/* <Image
               alt="Image"
               className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center"
               height="310"
               src="/images/hero.jpg"
               sizes="100vw"
               width="550"
-            />
+            /> */}
           </div>
         </div>
       </div>
